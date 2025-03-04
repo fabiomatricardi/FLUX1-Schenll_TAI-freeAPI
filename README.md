@@ -57,7 +57,12 @@ You can find more [here](https://getimg.ai/blog/flux-1-prompt-guide-pro-tips-and
 
 <img src='https://github.com/fabiomatricardi/FLUX1-Schenll_TAI-freeAPI/raw/main/dragon.png' height=400>
 
+---
 
+
+> A single tree standing in the middle of the image. The left half of the tree has bright, vibrant red leaves under a bright, sunny blue sky, while the right half has bare branches covered in frost, with a cold, dark, thunderous sky. On the left there's orange, lush grass on the ground; on the right - thick snow. The split is sharp, with the transition happening right down the middle of the tree
+
+<img src='https://github.com/fabiomatricardi/FLUX1-Schenll_TAI-freeAPI/raw/main/red-whiteTREE.png' height=400>
 
 
 
