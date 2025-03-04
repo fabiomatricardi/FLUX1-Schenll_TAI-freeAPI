@@ -65,6 +65,22 @@ You can find more [here](https://getimg.ai/blog/flux-1-prompt-guide-pro-tips-and
 <img src='https://github.com/fabiomatricardi/FLUX1-Schenll_TAI-freeAPI/raw/main/red-whiteTREE.png' height=400>
 
 
+---
+
+## Resources
+- Together AI [pypi package page](https://pypi.org/project/together/)
+- [Together.AI](https://api.together.ai/)
+- [Introduction](https://docs.together.ai/docs/introduction) to TogetherAI and services
+- [Together.Cookbooks](https://github.com/togethercomputer/together-cookbook)
+- How to create Images - [QuickStart](https://docs.together.ai/docs/images-overview)
+
+
+---
+
+Gradio Interface soon
+
+---
+
 
 
 
