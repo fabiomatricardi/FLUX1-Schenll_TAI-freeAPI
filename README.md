@@ -17,6 +17,37 @@ Free quota:
 
 Register at https://api.together.ai/
 
+
+### What is Flux.1-Schnell
+FLUX.1-Schnell is a 12 billion parameter rectified flow transformer designed to generate high-quality images from text descriptions. It is trained using latent adversarial diffusion distillation, which allows it to produce images in just 1 to 4 steps. This model is optimized for speed and efficiency, making it suitable for both personal and commercial use. 
+
+It is available under an Apache 2.0 license, and its implementation and sampling code can be found in a dedicated GitHub repository. FLUX.1-Schnell can be used to create a variety of images, including photorealistic scenes, artistic illustrations, and concept art, applicable to diverse applications.
+
+FLUX.1-Schnell can produce images in only 4 steps due to its training methodology and architecture. Here are the key factors that enable this efficiency:
+
+- Latent Adversarial Diffusion Distillation: This training technique allows the model to generate high-quality images with fewer steps compared to traditional diffusion models. It distills the knowledge from a larger, more complex model into a smaller, more efficient one, enabling faster inference.
+- Rectified Flow Transformer Architecture: The model's architecture is designed to optimize the flow of information during the generation process. This includes a hybrid architecture that combines multimodal and parallel diffusion transformer blocks, enhancing both speed and quality.
+- Optimized Inference: The model includes optimizations such as compiled fp8 quantization and optimized attention kernels, which further accelerate the image generation process. These optimizations are crucial for achieving high-quality outputs in fewer steps.
+
+#### Note
+> You cannot set more than 4 steps in the generation!
+
+## Generation quality by number of steps
+
+> PROMPT: Depict a cozy, warmly lit bookstore cafe on a rainy evening. The atmosphere should be inviting and nostalgic, with soft yellow lighting from vintage lamps illuminating rows of well-worn books. Show patrons reading in comfortable armchairs, steam rising from their coffee cups. The large front window should reveal a glistening wet street outside, with blurred lights from passing cars. Emphasize the contrast between the warm interior and the cool, rainy exterior.
+
+
+Here the same prompt from 1 to 2 steps (left to right)
+
+<img src='https://github.com/fabiomatricardi/FLUX1-Schenll_TAI-freeAPI/raw/main/interior-1step.png' width=450> <img src='https://github.com/fabiomatricardi/FLUX1-Schenll_TAI-freeAPI/raw/main/interior-2steps.png' width=450> 
+
+Here the same prompt from 3 to 4 steps (left to right)
+
+<img src='https://github.com/fabiomatricardi/FLUX1-Schenll_TAI-freeAPI/raw/main/interior-3steps.png' width=450> <img src='https://github.com/fabiomatricardi/FLUX1-Schenll_TAI-freeAPI/raw/main/interior-4steps.png' width=450>
+
+
+
+
 ---
 
 Remote calls requires the Together package. Recommended to use Python 3.12 to avoid dependency clashes
